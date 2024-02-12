@@ -1,11 +1,9 @@
-import './App.module.css'
+import style from "./App.module.css";
 
-function App() {
+export default function App():JSX.Element {
   return (
-    <>
-      <p>Sup nerds!</p>
-    </>
+    <div className={style.App}>
+      Hello mo money
+    </div>
   )
 }
-
-export default App
