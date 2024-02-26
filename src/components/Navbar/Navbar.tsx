@@ -1,24 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { getImageUrl } from '../../utils';
 
 import style from './Navbar.module.scss';
 
 export default function Navbar():JSX.Element {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <nav className={style.navbar}>
-        <a href="/" className={style.title} >Back to the top</a>
+        <a href="/" className={style.title} >Portfolio</a>
           <div className={style.menu}>
+            <img src={isMenuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")} alt="menu-button" className={style.menuBtn} onClick={()=>setIsMenuOpen(!isMenuOpen)}/>
             <ul className={style.menuItems}>
-              <li className={style.menuItem}>
-                <a href="#about" className={style.navAnchor}>About</a>
+              <li>
+                <a href="about" >About</a>
               </li >
-              <li className={style.menuItem}>
-                <a href="#experience" className={style.navAnchor}>Experience</a>
+              <li>
+                <a href="experience">Experience</a>
               </li>
-              <li className={style.menuItem}>
-                <a href="#projects" className={style.navAnchor}>Projects</a>
+              <li >
+                <a href="projects" >Projects</a>
               </li>
-              <li className={style.menuItem}>
-                <a href="#contact" className={style.navAnchor}>Contact</a>
+              <li >
+                <a href="contact" >Contact</a>
               </li>
             </ul>
         </div>
