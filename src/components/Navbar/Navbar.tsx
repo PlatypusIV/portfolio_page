@@ -11,9 +11,9 @@ export default function Navbar():JSX.Element {
         <a href="/" className={style.title} >Portfolio</a>
           <div className={style.menu}>
             <img src={isMenuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png")} alt="menu-button" className={style.menuBtn} onClick={()=>setIsMenuOpen(!isMenuOpen)}/>
-            <ul className={style.menuItems}>
+            <ul className={`${style.menuItems} ${isMenuOpen && style.menuOpen}`} onClick={() => setIsMenuOpen(false)}>
               <li>
-                <a href="about" >About</a>
+                <a href="about" >Who am I?</a>
               </li >
               <li>
                 <a href="experience">Experience</a>
