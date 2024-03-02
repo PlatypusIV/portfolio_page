@@ -1,0 +1,14 @@
+{
+    "frontend":{
+        "title": "Frontend developer",
+        "content": "I have experience creating reactive website using reactjs/ts and nodejs."
+    },
+    "fullstack": {
+        "title": "Fullstack engineer",
+        "content": "Can build a fullstack application using docker, kubernetes, nodejs, postgres and various other technologies."
+    },
+    "gamedev": {
+        "title": "Game dev",
+        "content": "Have made several small game projects using the Godot engine and C#."
+    }
+}
