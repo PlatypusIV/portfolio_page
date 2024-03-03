@@ -46,14 +46,15 @@ a {
     color: var(--colors-text);
 }
 
-section img {
-    width: 50%;
+.heroImage {
+    width: 30%;
     z-index: 1;
 
     animation-name: floating;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    // background-color: beige;
 }
 
 @keyframes floating {
