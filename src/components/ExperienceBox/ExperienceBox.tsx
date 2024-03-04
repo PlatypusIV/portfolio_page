@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { getImageUrl } from '../../utils';
+import style from './ExperienceBox.module.scss';
 
 interface Props {
     title: string;
@@ -11,10 +12,12 @@ interface Props {
 export default function ExperienceBox(props: Props):JSX.Element {
   const { title, content, imageUri, imageAlt } = props;
   return (
-    <div>
+    <li className={style.experienceBox}>
         <img src={getImageUrl(imageUri)}  alt={imageAlt ? imageAlt : "CursorIcon"}/>
-        <h3>{title}</h3>
-        <p>{content}</p>
-    </div>
+        <div>
+          <h3>{title}</h3>
+          <p>{content}</p>
+        </div>
+    </li>
   )
 }
