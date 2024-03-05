@@ -9,8 +9,30 @@
     padding: 25px;
     background-image: linear-gradient(90deg, rgba(165,215,232, 0.42) 0%, rgba(255,255,255,0) 100%);
     background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.experienceBox img {
+    width: 45px;
 }
 
 .experienceBox:hover {
     background-size: 100% 100%;
+}
+
+.experienceBox h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.experienceBox p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+    .experienceBox {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

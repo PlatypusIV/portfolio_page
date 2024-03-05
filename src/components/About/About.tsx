@@ -7,7 +7,7 @@ import style from './About.module.scss';
 
 export default function About():JSX.Element {
   return (
-    <section className={style.container}>
+    <section className={style.container} id="about">
         <h2 className={style.title}>About</h2>
         <div className={style.content}>
             <img src={getImageUrl('about/aboutImage.png')} alt="Me researching some esoteric technologies" className={style.aboutImage} />

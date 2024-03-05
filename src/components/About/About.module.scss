@@ -7,6 +7,9 @@
     padding: 70px;
     z-index: 1;
     margin: 120px 10% 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .title {
@@ -25,11 +28,31 @@
 
 .aboutImage {
     width: 35%;
+    // display: none;
 }
-
+//need to fix image
 .content ul {
     color: var(--color-text);
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .content ul {
+        margin-top: 29px;
+    }
 }
