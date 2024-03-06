@@ -1,6 +1,6 @@
 import React from 'react';
 import { getImageUrl } from '../../utils';
-import experience from "../../experience.json";
+import experience from "../../data/experience.json";
 import ExperienceBox from '../ExperienceBox/ExperienceBox';
 import style from './About.module.scss';
 

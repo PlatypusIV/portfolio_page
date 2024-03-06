@@ -1,0 +1,30 @@
+[
+    {
+        "title": "nodejs",
+        "imageSource": "skills/node.png"
+    },
+    {
+        "title": "react",
+        "imageSource": "skills/react.png"
+    },
+    {
+        "title": "html",
+        "imageSource": "skills/html.png"
+    },
+    {
+        "title": "mongodb",
+        "imageSource": "skills/mongodb.png"
+    },
+    {
+        "title": "css",
+        "imageSource": "skills/css.png"
+    },
+    {
+        "title": "godot",
+        "imageSource": "skills/godot.png"
+    },
+    {
+        "title": "csharp",
+        "imageSource": "skills/chsharp.png"
+    }
+]

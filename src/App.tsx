@@ -1,8 +1,8 @@
 import style from "./App.module.scss";
 import About from "./components/About/About";
+import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
-import Skillset from "./components/Skillset/Skillset";
 
 export default function App():JSX.Element {
   return (
@@ -10,7 +10,7 @@ export default function App():JSX.Element {
       <Navbar />
       <Hero />
       <About />
-      <Skillset />
+      <Experience />
     </div>
   )
 }
