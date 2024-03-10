@@ -1,0 +1,10 @@
+[
+    {
+    "title":"Project 1", 
+    "imageSource":"projects/project.png",
+    "description":"Description goes here",
+    "skills": ["React", "node"],
+    "demo": "demoUrl.demo",
+    "source": "sourceurl"
+    }
+]
