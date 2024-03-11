@@ -1,32 +1,35 @@
 import React from 'react'
 import { getImageUrl } from '../../utils';
+import style from "./ProjectCard.module.scss";
 
 interface Props {
+    project: Project;
+}
+
+interface Project {
   imageSource: string;
   title: string;
   description: string;
   skills: string[];
   demo: string;
   source: string;
-  id: number;
 }
 
 export default function ProjectCard(props: Props):JSX.Element {
-  const {imageSource, title, description, skills, demo, source, id} = props;
-
+  const {imageSource, title, description, skills, demo, source} = props.project;
   return (
-    <div key={id}>
-              <img src={getImageUrl(imageSource)} alt={`Image of ${title}`} />
-            <h3>{title}</h3>
-            <p>{description}</p>
-            <ul>{skills.map((skill, id)=>
-              <li key={id}>{skill}</li>
-            )}
-            </ul>
-            <div>
-              <a href={demo}>Demo</a>
-              <a href={source}>Source</a>
-            </div>
-            </div>
+    <div className={style.container}>
+      <img src={getImageUrl(imageSource)} alt={`Image of ${title}`} className={style.image}/>
+      <h3 className={style.title}>{title}</h3>
+      <p className={style.description}>{description}</p>
+      <ul className={style.skills}>{skills.map((skill, id)=>
+        <li key={id}>{skill}</li>
+      )}
+      </ul>
+      <div className={style.links}>
+        <a href={demo}>Demo</a>
+        <a href={source}>Source</a>
+      </div>
+    </div>
   )
 }
