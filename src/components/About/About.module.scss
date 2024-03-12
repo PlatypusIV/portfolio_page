@@ -13,7 +13,7 @@
 }
 
 .title {
-    color: var(--color-text);
+    color: var(--colors-text);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
@@ -32,7 +32,7 @@
 }
 //need to fix image
 .content ul {
-    color: var(--color-text);
+    color: var(--colors-text);
     display: flex;
     flex-direction: column;
     gap: 50px;
