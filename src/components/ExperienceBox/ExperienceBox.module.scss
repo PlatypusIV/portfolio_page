@@ -14,7 +14,8 @@
 }
 
 .experienceBox img {
-    width: 45px;
+    min-width: 55px;
+    max-width: 55px;
 }
 
 .experienceBox:hover {
