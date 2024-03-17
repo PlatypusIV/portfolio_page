@@ -5,7 +5,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
     z-index: 1;
     margin: 0 10% 0 10%;
     font-family: var(--font-roboto);
@@ -47,31 +46,21 @@ p {
     color: var(--colors-text);
 }
 
-.heroImage {
-    width: 30%;
-    z-index: 1;
-    background-color: var(--colors-dark-bg);
-    border-radius: 100%;
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    // background-color: beige;
+.imageContainer {
+    overflow: hidden;
+    width: 60%;
+    border-radius: 10%;
+    background-image: url("../../../assets/hero/heroBgImage.png");
 }
 
-@keyframes floating {
-    0% {
-        transform: translate(0,0px);
-    }
 
-    50% {
-        transform: translate(0,10px);
-
-    }
-    100% {
-        transform: translate(0,-0px);
-
-    }
+.heroImage {
+    margin-bottom: -10px;
+    width: 100%;
+    z-index: 1;
+    border-radius: inherit;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .topBlur {
@@ -83,7 +72,7 @@ p {
     top: -128px;
     left: -20vw;
     border-radius: 764px;
-    background: rgba(33, 63, 121, 0.7);
+    background: rgba(214, 69, 80, 0.7);
     filter: blur(100px);
     z-index: 0;
 }
@@ -97,9 +86,15 @@ p {
     top: 246px;
     right: -35vw;
     border-radius: 764px;
-    background: rgba(25,55,109, 0.7);
+    background: rgba(137, 96, 142, 0.7);
     filter: blur(100px);
-    z-index: 0;
+    z-index: -1;
+}
+
+.content a:hover {
+    background-color: #f0f0f0;
+    color: black;
+    transition: 0.9s ease-out;
 }
 
 @media screen and (max-width: 830px) {

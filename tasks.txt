@@ -2,10 +2,14 @@ find an iamge of me sitting behind a table
 
 add rust to skill list
 
-correct color scheme
-
 correct background for personal image
 
 add postgres to skills
 
 temp disable projects part of page
+
+animated background circuitry
+
+a loading animation to load all the assets
+
+on hover animations for hovering on buttons

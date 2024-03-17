@@ -10,10 +10,12 @@ export default function Hero():JSX.Element {
         <p>I am a full stack software engineer/developer, with 4 years of experience.</p>
         <a href="mailto:hkymera2@gmail.com">Contact email</a>
     </div>
+    <div className={style.imageContainer}>
     <img src={getImageUrl("hero/heroImage.png")}
       alt="Image of me" 
       className={style.heroImage}
       />
+    </div>
     <div className={style.topBlur}></div>
     <div className={style.bottomBlur}></div>
   </section>)

@@ -1,7 +1,7 @@
 :root {
     /* Colors */
     --colors-text: #fff;
-    --colors-inverted-text: #000;
+    --colors-dark-text: #000;
     --colors-primary: #1F2833;
     --colors-secondary:#C5C6C7;
     --colors-dark: #190061;
@@ -21,6 +21,8 @@
 #0B0C10
 #1F2833
 #C5C6C7
+#886176
+#D64550
 
 
 #a5d7e8
