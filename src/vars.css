@@ -1,11 +1,27 @@
 :root {
     /* Colors */
     --colors-text: #fff;
-    --colors-primary: #576cbc;
-    --colors-secondary:#19376d;
-    --colors-dark: #0b2447;
-    --colors-bg: #04152d;
+    --colors-inverted-text: #000;
+    --colors-primary: #1F2833;
+    --colors-secondary:#C5C6C7;
+    --colors-dark: #190061;
+    --colors-bg: #0B0C10;
 
     /* Font */
     --font-roboto: "Roboto";
 }
+
+/*
+#0C0032
+#190061
+#240090
+#3500D3
+#282828
+
+#0B0C10
+#1F2833
+#C5C6C7
+
+
+#a5d7e8
+*/

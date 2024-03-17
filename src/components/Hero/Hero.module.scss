@@ -50,7 +50,8 @@ p {
 .heroImage {
     width: 30%;
     z-index: 1;
-
+    background-color: var(--colors-dark-bg);
+    border-radius: 100%;
     animation-name: floating;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
@@ -80,9 +81,9 @@ p {
     min-width: 350px;
     min-height: 350px;
     top: -128px;
-    left: 10vw;
+    left: -20vw;
     border-radius: 764px;
-    background: rgba(25,55,109, 0.7);
+    background: rgba(33, 63, 121, 0.7);
     filter: blur(100px);
     z-index: 0;
 }
@@ -94,7 +95,7 @@ p {
     min-width: 250px;
     min-height: 350px;
     top: 246px;
-    right: -25vw;
+    right: -35vw;
     border-radius: 764px;
     background: rgba(25,55,109, 0.7);
     filter: blur(100px);
