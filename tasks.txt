@@ -1,4 +1,4 @@
-find an iamge of me sitting behin a table
+find an iamge of me sitting behind a table
 
 add rust to skill list
 
@@ -7,3 +7,5 @@ correct color scheme
 correct background for personal image
 
 add postgres to skills
+
+temp disable projects part of page
