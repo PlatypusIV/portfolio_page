@@ -19,7 +19,7 @@
     
 }
 
-h1 {
+.content h1 {
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
@@ -30,7 +30,7 @@ h1 {
     background-clip: text;
 }
 
-p {
+.content p {
     font-size: 30px;
     margin-bottom: 52px;
 }
@@ -42,8 +42,13 @@ p {
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0,0,0, 0.25);
     color: var(--colors-text);
+    background-image: linear-gradient(90deg, var(--colors-primary) 0%, rgba(165, 215, 232, 0.42) 100%);
+    transition: ease-in-out 1s;
+}
+
+.content a:hover {
+    text-shadow: 2px 2px #000;
 }
 
 .imageContainer {
@@ -59,8 +64,6 @@ p {
     width: 100%;
     z-index: 1;
     border-radius: inherit;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
 }
 
 .topBlur {
@@ -91,11 +94,7 @@ p {
     z-index: -1;
 }
 
-.content a:hover {
-    background-color: #f0f0f0;
-    color: black;
-    transition: 0.9s ease-out;
-}
+
 
 @media screen and (max-width: 830px) {
     section {
