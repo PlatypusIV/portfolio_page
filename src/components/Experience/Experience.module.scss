@@ -88,7 +88,7 @@
 }
 
 .historyItem img {
-  width: 50px;
+  width: 150px;
 }
 
 .historyItemDetails {
@@ -134,13 +134,13 @@
 
 .topBlur {
   position: absolute;
-  width: 50vw;
+  width: 30vw;
   height: 50vh;
   min-width: 350px;
   min-height: 350px;
   right: -20vw;
   border-radius: 764px;
-  background: rgba(214, 69, 80, 0.7);
+  background: rgba(38, 0, 175, 0.7);
   filter: blur(100px);
   z-index: 0;
 }
