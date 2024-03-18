@@ -17,6 +17,7 @@ export default function About():JSX.Element {
               <ExperienceBox title={experience.gamedev.title} content={experience.gamedev.content} imageUri="about/gameControllerIcon.png"/>
             </ul>
         </div>
+      <div className={style.topBlur}></div>
     </section>
   )
 }

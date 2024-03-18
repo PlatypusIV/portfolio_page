@@ -12,10 +12,6 @@
         "imageSource": "skills/html.png"
     },
     {
-        "title": "mongodb",
-        "imageSource": "skills/mongodb.png"
-    },
-    {
         "title": "css",
         "imageSource": "skills/css.png"
     },
@@ -25,6 +21,20 @@
     },
     {
         "title": "csharp",
-        "imageSource": "skills/chsharp.png"
+        "imageSource": "skills/c-sharp.png"
+    },
+    {
+        "title": "rust",
+        "imageSource": "skills/rust.png"
+    }
+    ,
+    {
+        "title": "postgres",
+        "imageSource": "skills/psql.png"
+    }
+    ,
+    {
+        "title": "express.js",
+        "imageSource": "skills/express.png"
     }
 ]

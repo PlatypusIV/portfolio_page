@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 61px;
+    padding-bottom: 20px;
     z-index: 2;
     margin: 0 10%;
 }
@@ -15,6 +16,8 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--colors-text);
+    text-shadow:
+    3px 3px 0 #000;
 }
 
 .menu {
@@ -67,9 +70,10 @@
         justify-content: space-between;
         gap: 13px;
         border-radius: 10px;
-        background: linear-gradient(0deg, rgba(25,55,109,0.2) 0%,  rgba(25,55,109,1) 100%);
+        background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255,255,255,0) 100%);
         padding: 24px 33px;
-        box-shadow: 0 0 4px 0 rgba(0,0,0,0.25)
+        box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+        text-shadow: 2px 2px #000;
     }
 
     .menuItems a {

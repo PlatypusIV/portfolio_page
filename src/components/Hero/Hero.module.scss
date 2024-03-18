@@ -77,7 +77,7 @@
     border-radius: 764px;
     background: rgba(214, 69, 80, 0.7);
     filter: blur(100px);
-    z-index: 0;
+    z-index: -1;
 }
 
 .bottomBlur {
@@ -89,7 +89,8 @@
     top: 246px;
     right: -35vw;
     border-radius: 764px;
-    background: rgba(137, 96, 142, 0.7);
+    background: rgba(72, 79, 175, 0.7);
+    // background: rgba(137, 96, 142, 0.7);
     filter: blur(100px);
     z-index: -1;
 }
