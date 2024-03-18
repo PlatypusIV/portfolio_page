@@ -42,7 +42,6 @@ export default function Experience (): JSX.Element{
           })}
         </ul>
       </div>
-     <div className={style.topBlur}></div>
     </section>
   );
 };
