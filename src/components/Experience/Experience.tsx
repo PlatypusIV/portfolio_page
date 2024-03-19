@@ -33,7 +33,7 @@ export default function Experience (): JSX.Element{
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                      return <li key={id} className={style.historyListElement}>{experience}</li>;
                     })}
                   </ul>
                 </div>

@@ -37,12 +37,13 @@
     gap: 25px;
 }
 
-.links a {
+.links li a {
     color: var(--colors-text);
     text-decoration: none;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1.5px;
+    word-wrap: break-word;
 }
 
 @media screen and (max-width: 830px){
@@ -56,9 +57,26 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-wrap: wrap;
+        font-size: medium;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 20px;
+
     }
 
     .links {
         align-items: start;
+    }
+
+    .links li a {
+        text-wrap: wrap;
+        word-wrap: break-word;
+        font-size: 18px;
     }
 }

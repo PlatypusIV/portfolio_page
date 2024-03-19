@@ -131,4 +131,18 @@
     width: 100%;
     gap: 9px;
   }
+
+  .historyItem {
+    flex-direction: column;
+  }
+
+  .historyItemDetails h3{
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .historyListElement {
+    list-style: none;
+    font-size: medium;
+  }
 }

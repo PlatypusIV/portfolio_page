@@ -39,4 +39,18 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+    .experienceBox img {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+
+    .experienceBox h3 {
+        font-size: medium;
+    }
+
+    .experienceBox p {
+        font-size: medium;
+    }
 }
