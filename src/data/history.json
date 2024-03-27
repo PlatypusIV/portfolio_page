@@ -1,5 +1,3 @@
-[{"role": "Frontend developer", "organisation": "Aiotex", "startDate":"March, 2019", "endDate":"Oct, 2019", "experiences":["RabbitMQ monitoring system", "Electron port of their website"], "imageSource":"history/notAvailable.png"},
-
-{"role": "Systems Specialist/software engineer", "organisation": "Fontakt", "startDate":"Nov, 2019", "endDate":"April, 2021", "experiences":["Maintaining a CRM system for clients", "Creating external addons/integrations for the CRM system"], "imageSource":"history/fontakt.png"},
-
-{"role": "Fullstack Software Engineer", "organisation": "Coolbet", "startDate":"Aug, 2021", "endDate":"TBA", "experiences":["Developed multiple backoffice applications", "Developed multiple backend services"], "imageSource":"history/coolbet.png"}]
+[{"role": "Fullstack Software Engineer", "organisation": "Coolbet", "startDate":"Aug, 2021", "endDate":"TBA", "experiences":["Developed multiple backoffice applications", "Developed multiple backend services"], "imageSource":"history/coolbet.png"},
+{"role": "Frontend developer", "organisation": "Aiotex", "startDate":"March, 2019", "endDate":"Oct, 2019", "experiences":["RabbitMQ monitoring system", "Electron port of their website"], "imageSource":"history/notAvailable.png"},
+{"role": "Systems Specialist/software engineer", "organisation": "Fontakt", "startDate":"Nov, 2019", "endDate":"April, 2021", "experiences":["Maintaining a CRM system for clients", "Creating external addons/integrations for the CRM system"], "imageSource":"history/fontakt.png"}]
