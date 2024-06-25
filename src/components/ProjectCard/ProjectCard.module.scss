@@ -4,10 +4,11 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255,255,255,0) 100%);
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
     max-width: 345px;
+    text-shadow: 3px 3px 0 #000;
 }
 
 .image {
@@ -48,12 +49,11 @@
     margin-top: 26px;
     display: flex;
     justify-content: space-around;
+    
 }
 
-// .links a {
-//     text-decoration: none;
-//     font-size: 30px;
-//     font-weight: 600;
-//     border-radius: 100px;
-//     padding: 1px 22px;
-// }
+.links a {
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--colors-text);
+}
