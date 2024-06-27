@@ -19,8 +19,10 @@ export default function ProjectCard(props: Props):JSX.Element {
   return (
     <div className={style.container}>
       <img src={getImageUrl(imageSource)} alt={`Image of ${title}`} className={style.image}/>
-      <h3 className={style.title}>{title}</h3>
-      <p className={style.description}>{description}</p>
+      <div className={style.textContainer}>
+        <h3 className={style.title}>{title}</h3>
+        <p className={style.description}>{description}</p>
+      </div>
       <ul className={style.skills}>{skills.map((skill, id)=>
         <li key={id}>{skill}</li>
       )}

@@ -14,7 +14,7 @@
         "source": "https://platypusiv.github.io/tarfPage/"
     },
     {
-        "title":"Tarfs homepage", 
+        "title":"Tower defense roguelike",
         "imageSource":"projects/GameJamTowerDefenseGame.png",
         "description":"WIP tower defense game we cooked up during a gamejame.",
         "skills": ["Godot", "C#", ".net"],
