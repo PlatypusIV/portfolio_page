@@ -4,20 +4,23 @@
     "imageSource":"projects/TabletopTrackerMain.png",
     "description":"Initiative and effect tracker for dnd and such",
     "skills": ["React", "typescript", "vite"],
-    "source": "https://platypusiv.github.io/tabletop_initiative_tracker/"
+    "source": "https://platypusiv.github.io/tabletop_initiative_tracker/",
+    "github": "https://github.com/PlatypusIV/tabletop_initiative_tracker"
     },
     {
         "title":"Tarfs homepage", 
         "imageSource":"projects/TarfspageMain.png",
         "description":"Homepage for a musician.",
         "skills": ["React", "javascript"],
-        "source": "https://platypusiv.github.io/tarfPage/"
+        "source": "https://platypusiv.github.io/tarfPage/",
+        "github": "https://github.com/PlatypusIV/tarfPage"
     },
     {
         "title":"Tower defense roguelike",
         "imageSource":"projects/GameJamTowerDefenseGame.png",
         "description":"WIP tower defense game we cooked up during a gamejame.",
         "skills": ["Godot", "C#", ".net"],
-        "source": "https://picaroonproduction.itch.io/nighshade-grove"
+        "source": "https://picaroonproduction.itch.io/nighshade-grove",
+        "github": "https://github.com/RefrosJob/rgTD"
     }
 ]
