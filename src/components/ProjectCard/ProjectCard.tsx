@@ -26,10 +26,13 @@ export default function ProjectCard(props: Props):JSX.Element {
         <p className={style.description}>{description}</p>
       </div>
 
-      <ul className={style.skills}>{skills.map((skill, id)=>
-        <li key={id}>{skill}</li>
-      )}
-      </ul>
+      <div className={style.skillsContainer}>
+        <ul className={style.skills}>{skills.map((skill, id)=>
+          <li key={id}>{skill}</li>
+        )}
+        </ul>
+      </div>
+
       <div className={style.links}>
         <a href={source}>Project source</a>
         <a href={source}>Github</a>
