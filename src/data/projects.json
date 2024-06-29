@@ -18,7 +18,7 @@
     {
         "title":"Tower defense roguelike",
         "imageSource":"projects/GameJamTowerDefenseGame.png",
-        "description":"WIP tower defense game we cooked up during a gamejame.",
+        "description":"WIP tower defense game we cooked up during a gamejam.",
         "skills": ["Godot", "C#", ".net"],
         "source": "https://picaroonproduction.itch.io/nighshade-grove",
         "github": "https://github.com/RefrosJob/rgTD"
