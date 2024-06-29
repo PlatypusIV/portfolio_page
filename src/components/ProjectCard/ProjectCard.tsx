@@ -11,24 +11,31 @@ interface Project {
   title: string;
   description: string;
   skills: string[];
-  demo: string;
   source: string;
+  github: string;
 }
 
 export default function ProjectCard(props: Props):JSX.Element {
-  const {imageSource, title, description, skills, demo, source} = props.project;
+  const {imageSource, title, description, skills, source} = props.project;
   return (
     <div className={style.container}>
       <img src={getImageUrl(imageSource)} alt={`Image of ${title}`} className={style.image}/>
-      <h3 className={style.title}>{title}</h3>
-      <p className={style.description}>{description}</p>
-      <ul className={style.skills}>{skills.map((skill, id)=>
-        <li key={id}>{skill}</li>
-      )}
-      </ul>
+      
+      <div className={style.textContainer}>
+        <h3 className={style.title}>{title}</h3>
+        <p className={style.description}>{description}</p>
+      </div>
+
+      <div className={style.skillsContainer}>
+        <ul className={style.skills}>{skills.map((skill, id)=>
+          <li key={id}>{skill}</li>
+        )}
+        </ul>
+      </div>
+
       <div className={style.links}>
-        <a href={demo}>Demo</a>
-        <a href={source}>Source</a>
+        <a href={source}>Project source</a>
+        <a href={source}>Github</a>
       </div>
     </div>
   )
