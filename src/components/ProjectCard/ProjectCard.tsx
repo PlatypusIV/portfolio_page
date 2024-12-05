@@ -16,7 +16,7 @@ interface Project {
 }
 
 export default function ProjectCard(props: Props):JSX.Element {
-  const {imageSource, title, description, skills, source} = props.project;
+  const {imageSource, title, description, skills, source, github} = props.project;
   return (
     <div className={style.container}>
       <img src={getImageUrl(imageSource)} alt={`Image of ${title}`} className={style.image}/>
@@ -35,7 +35,7 @@ export default function ProjectCard(props: Props):JSX.Element {
 
       <div className={style.links}>
         <a href={source}>Project source</a>
-        <a href={source}>Github</a>
+        <a href={github}>Github</a>
       </div>
     </div>
   )
