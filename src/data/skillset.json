@@ -36,5 +36,13 @@
     {
         "title": "express.js",
         "imageSource": "skills/express.png"
+    },
+    {
+        "title": "java",
+        "imageSource": "skills/java.png"
+    },
+    {
+        "title": "spring",
+        "imageSource": "skills/spring.png"
     }
 ]
