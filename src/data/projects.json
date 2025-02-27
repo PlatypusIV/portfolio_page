@@ -1,11 +1,11 @@
 [
     {
-    "title":"Tabletop tracker", 
-    "imageSource":"projects/TabletopTrackerMain.png",
-    "description":"Initiative and effect tracker for dnd and such",
-    "skills": ["React", "typescript", "vite"],
-    "source": "https://platypusiv.github.io/tabletop_initiative_tracker/",
-    "github": "https://github.com/PlatypusIV/tabletop_initiative_tracker"
+        "title":"Tabletop tracker", 
+        "imageSource":"projects/TabletopTrackerMain.png",
+        "description":"Initiative and effect tracker for dnd and similar ttrpgs.",
+        "skills": ["React", "typescript", "vite"],
+        "source": "https://platypusiv.github.io/tabletop_initiative_tracker/",
+        "github": "https://github.com/PlatypusIV/tabletop_initiative_tracker"
     },
     {
         "title":"Tarfs homepage", 
