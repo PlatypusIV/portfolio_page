@@ -1,11 +1,15 @@
-@import "../../vars.css";
+@import '../../vars.css';
 
 .container {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 20% 20% 20% 20% 20%;
     border-radius: 10px;
-    background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(
+        90deg,
+        rgba(165, 215, 232, 0.42) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px 18px 24px;
     max-width: 345px;
@@ -68,7 +72,7 @@
     margin-top: 26px;
     grid-row: 5/5;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     padding: 6px;
@@ -80,7 +84,6 @@
     font-size: 26px;
     color: var(--colors-text);
     margin: 0px 6px 0px 6px;
-
 }
 
 @media screen and (max-width: 830px) {
@@ -106,4 +109,4 @@
     .links a {
         font-size: 18px;
     }
-  }
+}
