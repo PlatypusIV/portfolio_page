@@ -34,7 +34,7 @@ export default function ProjectCard(props: Props):JSX.Element {
       </div>
 
       <div className={style.links}>
-        <a href={source}>Project source</a>
+        <a href={source}>Live demo</a>
         <a href={github}>Github</a>
       </div>
     </div>
