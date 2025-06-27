@@ -13,9 +13,15 @@
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px 18px 24px;
     max-width: 345px;
-    min-height: 500px;
+    min-height: 550px;
     max-height: 600px;
     text-shadow: 3px 3px 0 #000;
+}
+
+.container:hover {
+    max-width: 345px;
+    min-height: 550px;
+    max-height: 600px;
 }
 
 .image {
@@ -51,7 +57,6 @@
 
 .skills {
     width: 100%;
-    margin-top: 14px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -69,9 +74,10 @@
 
 .links {
     width: 100%;
-    margin-top: 26px;
+    margin-top: 6px;
     grid-row: 5/5;
     display: flex;
+    flex-basis: calc(50% - 6px);
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
@@ -84,6 +90,10 @@
     font-size: 26px;
     color: var(--colors-text);
     margin: 0px 6px 0px 6px;
+}
+
+.links a:last-child:nth-child(odd) {
+    margin: 6px auto 0px auto;
 }
 
 @media screen and (max-width: 830px) {

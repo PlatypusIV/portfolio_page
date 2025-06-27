@@ -1,5 +1,0 @@
-temp disable projects part of page
-
-animated background circuitry
-
-a loading animation to load all the assets

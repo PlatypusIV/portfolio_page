@@ -11,12 +11,12 @@ interface Project {
   title: string;
   description: string;
   skills: string[];
-  source: string;
+  liveDemo?: string;
   github: string;
 }
 
 export default function ProjectCard(props: Props):JSX.Element {
-  const {imageSource, title, description, skills, source, github} = props.project;
+  const {imageSource, title, description, skills, liveDemo, github} = props.project;
   return (
     <div className={style.container}>
       <img src={getImageUrl(imageSource)} alt={`Image of ${title}`} className={style.image}/>
@@ -32,10 +32,9 @@ export default function ProjectCard(props: Props):JSX.Element {
         )}
         </ul>
       </div>
-
       <div className={style.links}>
-        <a href={source}>Live demo</a>
-        <a href={github}>Github</a>
+        {liveDemo && <a href={liveDemo}>Live demo</a>}
+        {github && <a href={github}>Github</a>}
       </div>
     </div>
   )
