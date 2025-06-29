@@ -51,8 +51,7 @@
 }
 
 .skillsContainer {
-    grid-row: 4/4;
-    grid-column: 1/1;
+    margin: 4px 0px 4px 0px;
 }
 
 .skills {
@@ -60,7 +59,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 4px;
     list-style: none;
 }
 
