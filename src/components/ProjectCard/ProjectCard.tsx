@@ -19,11 +19,14 @@ export default function ProjectCard(props: Props):JSX.Element {
   const {imageSource, title, description, skills, liveDemo, github} = props.project;
   return (
     <div className={style.container}>
-      <img src={getImageUrl(imageSource)} alt={`Image of ${title}`} className={style.image}/>
       
-      <div className={style.textContainer}>
-        <h3 className={style.title}>{title}</h3>
-        <p className={style.description}>{description}</p>
+      <div className={style.imageAndTextWrapperContainer}>
+        <img src={getImageUrl(imageSource)} alt={`Image of ${title}`} className={style.image}/>
+        
+        <div className={style.textContainer}>
+          <h3 className={style.title}>{title}</h3>
+          <p className={style.description}>{description}</p>
+        </div>
       </div>
 
       <div className={style.skillsContainer}>
