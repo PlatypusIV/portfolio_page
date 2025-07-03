@@ -19,7 +19,15 @@
         "title":"Conferencial", 
         "imageSource":"projects/ConferencialMain.png",
         "description":"Test assignment",
-        "skills": ["React", "Typescript","Vite","Playwright", "Java", "Spring"],
+        "skills": ["React", "Typescript","Vite","Playwright", "Java", "Spring", "Docker"],
         "github": "https://github.com/PlatypusIV/conferencial"
+    }
+    ,
+    {
+        "title":"Ticketing-system", 
+        "imageSource":"projects/project.png",
+        "description":"Test assignment. Quickly done simple backend to purchase and validate tickets.",
+        "skills": ["Java", "Spring", "Docker"],
+        "github": "https://github.com/PlatypusIV/ticketing_system"
     }
 ]
