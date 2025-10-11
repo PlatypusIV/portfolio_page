@@ -1,5 +1,5 @@
 [
-    {"role": "Fullstack Software Engineer", "organisation": "Eesti energia", "startDate":"Jul, 2024", "endDate":"Mar, 2025", "experiences":["Developed internal services", "Developed a Kafka based invoice system"], "imageSource":"history/eestiEnergia.png"},
+    {"role": "Fullstack Software Engineer", "organisation": "Eesti energia", "startDate":"Aug, 2024", "endDate":"Mar, 2025", "experiences":["Developed internal services", "Developed a Kafka based invoice system"], "imageSource":"history/eestiEnergia.png"},
     {"role": "Fullstack Software Engineer", "organisation": "Coolbet", "startDate":"Aug, 2021", "endDate":"Aug, 2024", "experiences":["Developed multiple backoffice applications", "Developed multiple backend services"], "imageSource":"history/coolbet.png"},
     {"role": "Systems Specialist/software engineer", "organisation": "Fontakt", "startDate":"Nov, 2019", "endDate":"Apr, 2021", "experiences":["Maintaining a CRM system for clients", "Creating external addons/integrations for the CRM system"], "imageSource":"history/fontakt.png"},
     {"role": "Frontend developer", "organisation": "Aiotex", "startDate":"Mar, 2019", "endDate":"Oct, 2019", "experiences":["RabbitMQ monitoring system", "Electron port of their website"], "imageSource":"history/notAvailable.png"}
