@@ -19,7 +19,7 @@
         "title":"Conferencial", 
         "imageSource":"projects/ConferencialMain.png",
         "description":"Test assignment",
-        "skills": ["React", "Typescript","Vite","Playwright", "Java", "Spring", "Docker"],
+        "skills": ["React", "Typescript","Vite", "Java", "Spring", "Docker"],
         "github": "https://github.com/PlatypusIV/conferencial"
     }
     ,
