@@ -8,14 +8,6 @@
         "github": "https://github.com/PlatypusIV/tabletop_initiative_tracker"
     },
     {
-        "title":"Tarfs homepage", 
-        "imageSource":"projects/TarfspageMain.png",
-        "description":"Homepage for a musician friend.",
-        "skills": ["React", "Javascript", "Html", "Css"],
-        "liveDemo": "https://platypusiv.github.io/tarfPage/",
-        "github": "https://github.com/PlatypusIV/tarfPage"
-    },
-    {
         "title":"Conferencial", 
         "imageSource":"projects/ConferencialMain.png",
         "description":"Test assignment",
