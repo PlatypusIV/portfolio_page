@@ -21,5 +21,12 @@
         "description":"Test assignment. Quickly done simple backend to purchase and validate tickets.",
         "skills": ["Java", "Spring", "Docker"],
         "github": "https://github.com/PlatypusIV/ticketing_system"
+    },
+    {
+        "title":"Spell Tapper game", 
+        "imageSource":"projects/SpellClickerRough.png",
+        "description":"Small mobile game idea. WIP.",
+        "skills": ["Godot", "C#"],
+        "github": "https://github.com/PlatypusIV/spellclicker"
     }
 ]
