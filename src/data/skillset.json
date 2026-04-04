@@ -44,5 +44,9 @@
     {
         "title": "spring",
         "imageSource": "skills/spring.png"
+    },
+    {
+        "title": "c++",
+        "imageSource": "skills/cpp.png"
     }
 ]
